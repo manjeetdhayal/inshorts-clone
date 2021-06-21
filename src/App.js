@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header'; 
+import './header.css';
+import FrontPage from './frontpage';
+import './frontpage.css';
+import Awards from './awards';
+import './awards.css';
+import Swipe from './Swipe'; 
+import './swipe.css';
+import Featured from './Featured';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+      {/* Header */} <Header/> 
+
+      {/* frontPage */} <FrontPage/>
+
+      {/* Part 2 Awards*/}<Awards/>
+
+      {/* Swipe Cards */} <Swipe/>
+
+      {/*  above footer 2 parts */ } {/* <Featured/> */}
+
+      {/* footer*/}
     </div>
   );
 }

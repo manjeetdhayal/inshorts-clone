@@ -1,0 +1,32 @@
+.swipe-container img {
+    width: 353px;
+}
+.swipe-container{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+}
+.swipe-container p {
+    color: #727272;
+    font-size: 25px;
+}
+
+.swipe-container h1 {
+    color: #369af8;
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 30px;
+    padding: 0 10% 0 0;
+}
+#Swipe-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5em;
+}
+
+
+.Swipe-img-left {
+    width: 50%;
+    padding: 11vw;
+}

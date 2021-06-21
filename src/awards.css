@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.award-container{
+    margin-top: 5em;
+}
+.award-container img {
+    width: 100vw;
+  
+}
+
+.award-container h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}

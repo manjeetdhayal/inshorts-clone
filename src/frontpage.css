@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: start;
+}
+.front-page p{
+    font-size: 1.7rem;
+    margin: 1.75rem 0 2rem;
+    font-weight: 200;
+    line-height: 28px;
+    color: #727272;
+    padding-right: 7%;
+}
+
+.front-page h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #369af8;
+    
+}
+.front-page{
+    display: flex;
+    margin-top: 10rem;
+    justify-content: space-around;
+    padding: 0 5rem;
+}
+
+#imgLeft img{
+    width: 353px;
+}
+#front-page-text{
+    
+    width: 50%;
+    padding: 10vw;
+   
+}
+
