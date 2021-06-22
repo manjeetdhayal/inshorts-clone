@@ -1,4 +1,5 @@
 import react from 'react'
+import ReadNow from './ReadNow';
 
  function Header() {
 
@@ -9,9 +10,9 @@ import react from 'react'
             </div>
             <div id="headerleft">
              <ul>
-                 <li>Read Now</li>
-                 <li>Carrers</li>
-                 <li>Blog</li>
+                 <li>Read Now </li>
+                 <li><a href="/Carrer"> Carrers </a> </li>
+                 <li> <a href="/Blog"> Blog </a></li>
              </ul>
              </div>
 

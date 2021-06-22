@@ -1,0 +1,52 @@
+
+
+.swipe-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    height: 100%;
+    width: 100%;
+    
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        transform-origin: top;
+        
+        
+
+       
+
+        h1 {
+            color: #369af8;
+            font-weight: 700;
+            margin-bottom: 5%;
+            font-size: 30px;
+            padding: 0 10% 0 0;
+        }
+
+        img {
+            width: 353px;
+        }
+        
+        #Swipe-img {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 5em;
+
+            .Swipe-img-left {
+                width: 50%;
+                padding: 11vw;
+            }
+
+            p {
+                color: #727272;
+                font-size: 25px;
+            }
+        }
+    }
+}
