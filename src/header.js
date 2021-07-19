@@ -10,9 +10,9 @@ import ReadNow from './ReadNow';
             </div>
             <div id="headerleft">
              <ul>
-                 <li>Read Now </li>
-                 <li><a href="/Carrer"> Carrers </a> </li>
-                 <li> <a href="/Blog"> Blog </a></li>
+                 <li><a href='/ReadNow'>Read Now </a></li>
+                 <li> Carrers </li>
+                 <li> Blog </li>
              </ul>
              </div>
 
