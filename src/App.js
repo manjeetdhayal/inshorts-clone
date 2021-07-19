@@ -11,6 +11,8 @@ import './swipe.scss';
 import Featured from './Featured';
 import Footer from './footer';
 
+
+
 function App() {
   return (
     <div className="App">

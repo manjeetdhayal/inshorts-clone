@@ -34,8 +34,12 @@ function Swipe () {
             <div className="imgRight"><img src="https://inshorts.com/dist/images/home_page/main_india.jpg" /> </div>
             </div>
             </section>
+
+    
         </div>
     )
 }
+
+{/*  fade on scroll functionality */}
 
 export default Swipe ; 
